@@ -1,0 +1,312 @@
+﻿body {
+    background-color: #000000;
+    width: 90%;
+    font-family: sans-serif;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p, label, div.form-field {
+    font-size: 14px;
+}
+
+header {
+    margin: 25px;
+}
+
+    header h1 {
+        font-size: 30px;
+        color: #FFFFFF;
+    }
+
+    header p {
+        color: #FFFFFF;
+        font-size: 12px;
+    }
+
+    header img {
+        height: 110px;
+    }
+
+nav {
+    margin-top: 25px;
+}
+
+    nav h2, nav p {
+        color: #FFF;
+        margin-left: 25px;
+    }
+
+    nav p {
+        font-size: 12px;
+        font-style: italic;
+    }
+
+
+
+li {
+    padding-bottom: 4px;
+}
+
+    li a {
+        color: #0D118B;
+        text-decoration: none;
+        font-size: 18px;
+        text-align: center;
+    }
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+    nav ul li {
+        background-color: #FFF;
+        border-radius: 8px;
+        list-style: none;
+        text-align: center;
+        flex-grow: 1;
+        padding-top: 5px;
+        margin: 0 10px;
+        max-width: 200px;
+    }
+
+
+
+li a:hover {
+    text-decoration: underline;
+}
+
+#planets {
+    display: flex;
+}
+
+.planets * {
+    color: #FFFFFF;
+}
+
+
+
+
+.planets p {
+    width: 80%;
+    margin: 25px;
+    text-align: left;
+}
+
+.planets img {
+    width: 250px;
+    height: 250px;
+    border-color: #FFFFFF;
+    border-width: 8px;
+    border-style: solid;
+}
+
+.planets {
+    text-align: center;
+}
+
+.planet {
+    min-height: 700px;
+    vertical-align: top;
+    width: 80%;
+    margin: 0 auto;
+}
+
+    .planet p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+.value {
+    color: green;
+    font-weight: bold;
+}
+
+form div {
+    padding: 10px 0px;
+}
+
+    form div label {
+        width: 200px;
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 25px;
+        color: black;
+    }
+
+form .field-validation-error {
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+form button {
+    text-align: center;
+    margin-left: 229px;
+}
+
+input[type=text], input[type=datetime], textarea {
+    width: 300px;
+}
+
+th, td {
+    color: white;
+}
+
+table tr:first-child {
+    padding-bottom: 10px;
+    font-size: 1.1em;
+}
+
+table td {
+    min-width: 75px;
+    padding: 5px 5px;
+}
+
+
+
+section.centeredPanel {
+    clear: both;
+    display: block;
+    width: 90%;
+    vertical-align: top;
+    min-height: 450px;
+    background-color: #FFF;
+    border-radius: 7px;
+    margin: 20px auto;
+}
+
+    section.centeredPanel h2 {
+        color: #000000;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    section.centeredPanel p {
+        color: #000;
+        text-align: left;
+    }
+
+.centered {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.success-message {
+    background-color: #5CB85C;
+    text-align: center !important;
+    color: #FFF !important;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.main-content {
+	margin: auto;
+	width: 80%;
+	background-color: white;
+	padding: 10px;
+	border-radius: 5px;
+	z-index: 1;
+	
+}
+
+.title {
+	text-align: center;
+	font-weight: 600;
+	font-size: 14pt;
+}
+
+.planetImage {
+	width: 250px;
+}
+
+.post {
+	text-align: center;
+}
+
+.forumPost {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.product {
+	text-align: left;
+	display: flex;
+	margin-top: 20px;
+	border-bottom: solid 1px black;
+	padding-bottom: 5px;
+}
+
+.productImage {
+	width: 300px;
+}
+
+.imageBox {
+	justify-content: flex-start;
+}
+
+.informationBox {
+	justify-content: flex-end;
+	align-self: center;
+	padding-right: 100px;
+}
+
+.price {
+	color: #52AAF3;
+}
+
+.tableImage {
+	width: 150px;
+}
+
+.table {
+	margin: 5px;
+	border: 1px solid black;
+}
+
+.table tr {
+	border: 1px solid black;
+}
+
+.table th {
+	border: 1px solid black;
+}
+
+.table td {
+	border: 1px solid black;
+	width: 20%;
+}
+
+.total {
+	text-align: end;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+#cart {
+	color: black;
+}
+
+#even {
+	background-color: lightgray;
+}
+
+#odd {
+	background-color: white;
+}
